@@ -673,12 +673,14 @@ img {
   background: #303743;
   height: 42px;
   width: 42px;
-  display: inline-block;
+  /*display: inline-block;*/
   color: #fff;
   text-align: center;
   border-radius: 50%;
   line-height: 42px;
   font-size: 16px;
+  display: grid;
+  align-items: center;
 }
 .social-list li a:hover {
   background: #253276;
@@ -2782,7 +2784,7 @@ select {
 /*========================================*/
 .page-title-section {
   background-color: #f8f8f8;
-  background-image: url(../images/sms.png);
+  background-image: url(../images/courrier.jpg);
   color: #fff;
 }
 /*.page-title-sectionZ {
